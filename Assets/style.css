@@ -1,0 +1,135 @@
+:root{
+    --font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    --primary-color:#A7C7E7 ;
+    --secondary-color: #6ba1d7;
+    --background-lavender: #a7a7e7;
+
+
+}
+
+/* Nav Bar */
+header{
+    background-color: var(--secondary-color);
+    display: flex;
+    top: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    margin: 0;
+    
+    
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+/* headers */
+h2{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border:2px solid black;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+h3{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Hero Image */
+.hero{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    max-width: 200px;
+}
+
+/* About me */
+
+#about-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-lavender);
+}
+#self-portrait{
+    height: 200px;
+    width: 150px;
+}
+
+#about-me p{
+    font-style: italic;
+    font-weight: bold;
+    
+}
+#name{
+    font-size: 25px;
+}
+
+/* My Work */
+
+main{
+    background-color: var(--primary-color);
+    padding-top: 10px;
+}
+#my-work{
+    text-align: center;
+    margin-top: 40px;
+}
+.all-projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    background: var(--primary-color);
+}
+.project{
+    flex: 1 0 0;
+    padding: 12px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.project-two + .project-three + .project-four + .project-five{
+    width: 100%;
+    min-width: 400px;
+}
+
+/* Contact Me */
+#contact-me{
+    margin-top: 10px;
+}
+#linkedin-icon{
+    height: 100px;
+    width: 70px;
+}
