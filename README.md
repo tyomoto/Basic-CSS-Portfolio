@@ -7,4 +7,4 @@ This weeks challenge was to create your own personal portfolio page without any 
 ![This is a screenshot of what my portfolio page currently looks like.](./Assets/my-portfolio-screenshot.PNG)
 
 ## Link
-This [link](https://tyomoto.github.io/pizza-pepperoni/) will take you to the site on Github
+This [link](https://tyomoto.github.io/pizza-pepperoni/) will take you to the site on Github.
